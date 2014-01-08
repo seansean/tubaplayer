@@ -28,6 +28,9 @@
 	// Init
 	TubaPlayer.prototype.init = function() {
 		var self = this;
+		
+		this.$el.addClass(name).css({'width': self.opts.width});
+		
 		// Build video container
 		var videoContainerHTML = $('<div class="'+ name +'-container" style="width:'+ this.opts.width +'px; height:'+ this.opts.height +'px;"></div>');      
 		this.$el.append(videoContainerHTML);

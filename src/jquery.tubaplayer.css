@@ -1,4 +1,6 @@
 .tubaplayer {}
 .tubaplayer-nav {}
-.tubaplayer-nav ul {}
-.tubaplayer-nav li {}
+.tubaplayer-nav ul {list-style: none; margin: 0; padding: 0; text-align: left; width: 100%;}
+.tubaplayer-nav li {display: inline-block; margin-left: 5px; width: 25%;}
+.tubaplayer-nav li:first-child {margin-left: 0;}
+.tubaplayer-nav img {max-width: 100%;}
